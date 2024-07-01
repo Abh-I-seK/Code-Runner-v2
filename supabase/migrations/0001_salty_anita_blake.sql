@@ -1,0 +1,1 @@
+ALTER TABLE "users_table" RENAME TO "codes_table";

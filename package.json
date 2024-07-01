@@ -9,18 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "@codemirror/lang-java": "^6.0.1",
+    "@uiw/codemirror-theme-material": "^4.22.2",
+    "@uiw/react-codemirror": "^4.22.2",
+    "@upstash/redis": "^1.31.6",
+    "@vercel/speed-insights": "^1.0.12",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.31.2",
+    "next": "14.2.4",
+    "postgres": "^3.4.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4"
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "drizzle-kit": "^0.22.8",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
   }
 }

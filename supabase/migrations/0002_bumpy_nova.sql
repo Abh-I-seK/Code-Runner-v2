@@ -1,0 +1,1 @@
+ALTER TABLE "codes_table" ADD COLUMN "timestamp" timestamp DEFAULT now();

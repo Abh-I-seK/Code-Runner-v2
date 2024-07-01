@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1719843435061,
+      "tag": "0000_curved_boom_boom",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1719843836012,
+      "tag": "0001_salty_anita_blake",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1719858100450,
+      "tag": "0002_bumpy_nova",
+      "breakpoints": true
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "32059d4c-a5cd-4d0f-af6c-a4fe02a79f30",
+  "prevId": "7818b5b9-508f-4850-b965-fb18b76c6f2f",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.codes_table": {
+      "name": "codes_table",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "src_code": {
+          "name": "src_code",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stdinp": {
+          "name": "stdinp",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "lang": {
+          "name": "lang",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "stdout": {
+          "name": "stdout",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
