@@ -16,13 +16,15 @@ bun dev
 
 # ENV Variables
 
-<li>
-<ul>DATABASE_URL</ul>
-<ul>NEXT_PUBLIC_REDIS_URL</ul>
-<ul>NEXT_PUBLIC_REDIS_TOKEN</ul>
-<ul>NEXT_PUBLIC_RapidAPI_KEY</ul>
-<ul>NEXT_PUBLIC_RapidAPI_HOST</ul>
-</li>
+<ui>
+<li>DATABASE_URL</li>
+<li>NEXT_PUBLIC_REDIS_URL</li>
+<li>NEXT_PUBLIC_REDIS_TOKEN</li>
+<li>NEXT_PUBLIC_RapidAPI_KEY</li>
+<li>NEXT_PUBLIC_RapidAPI_HOST</li>
+</ui>
+<br>
+<hr>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
