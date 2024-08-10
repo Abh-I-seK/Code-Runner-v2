@@ -31,10 +31,10 @@ export default function Home() {
         </div>
         <div className="mb-5">
           <label className="block mb-2 text-md font-semibold tracking-wider text-gray-900 dark:text-white">Language</label>
-          <select onChange={(e)=>{setLang(e.target.value); if(e.target.value == "91") {alert("Make Sure the Main Method is inside 'class Main' for JAVA")}}} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+          <select onChange={(e)=>{setLang(e.target.value); if(e.target.value == "91") {alert("Make Sure the Main Method is inside 'class Main' for JAVA")}}} className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" defaultValue={"93"}>
           <option value="91" >Java</option> 
           <option value="92">Python</option>
-          <option value="93" selected>Javascript</option>
+          <option value="93">Javascript</option>
           <option value="53">C++</option>
           </select>
         </div>
