@@ -32,7 +32,7 @@ export default function Home() {
       <form
         className="mx-auto"
         action={onSubmit}
-        onSubmit={async()=>{await onSubmit()}}
+        // onSubmit={async()=>{await onSubmit()}}
       >
         <div className="flex justify-center gap-10">
           <div className="mb-5">
